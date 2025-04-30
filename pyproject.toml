@@ -1,0 +1,11 @@
+[project]
+name = "investec-mcp"
+version = "0.1.0"
+description = "MCP server for integrating Investec Banking API into AI agents"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.6.0",
+    "python-dotenv>=1.1.0"
+]
